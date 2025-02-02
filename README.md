@@ -15,3 +15,6 @@ I used npm as my package manager, but should you desire to use a different packa
 
 ## Usage:
 To use this package, you need to create a `.env` file which contains your API key. 
+
+## License:
+As this is a derivative of the original edapi this is distributed under the same license.

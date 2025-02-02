@@ -2,7 +2,11 @@
   "name": "ed-api",
   "version": "1.0.0",
   "description": "JavaScript Wrapper for EdStem Web API",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "import": "./edapi/edapi.js"
+  },
+  "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

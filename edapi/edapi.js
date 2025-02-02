@@ -1,5 +1,5 @@
 
-import { create } from 'axios';
+import create from 'axios';
 const base_url = "https://us.edstem.org/api/";
 
 class EdAPI {

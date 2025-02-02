@@ -1,6 +1,6 @@
 {
-  "name": "ed-api",
-  "version": "1.0.0",
+  "name": "edstem-api",
+  "version": "1.0.1",
   "description": "JavaScript Wrapper for EdStem Web API",
   "type": "module",
   "exports": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/h0ethan04/ed-api.git"
+    "url": "git+https://github.com/h0ethan04/ed-api-js.git"
   },
   "author": "Ethan Ho",
   "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/h0ethan04/ed-api/issues"
+    "url": "https://github.com/h0ethan04/ed-api-js/issues"
   },
-  "homepage": "https://github.com/h0ethan04/ed-api#readme", 
+  "homepage": "https://github.com/h0ethan04/ed-api-js#readme", 
   "dependencies": {
     "axios": "^1.6.8"
   }

@@ -1,11 +1,11 @@
 
-import create from 'axios';
+import axios from 'axios';
 const base_url = "https://us.edstem.org/api/";
 
 class EdAPI {
     constructor(api_key) {
-        this.instance = create({
-            baseUrl: base_url,
+        this.instance = axios.create({
+            baseURL: base_url,
             timeout: 5000,
             headers: {"Authorization": `Bearer ${api_key}`}
         });
@@ -15,7 +15,7 @@ class EdAPI {
     async getUser() {
         try {
             const userInfo = await this.instance.get('user');
-            return userInfo;
+            return userInfo.data;
         } catch (err) {
             console.log(err);
         }

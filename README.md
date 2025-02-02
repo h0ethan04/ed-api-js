@@ -1,4 +1,4 @@
-# EdAPI
+# EdStem API
 
 This JavaScript package is a rewrite of the Python EdAPI package, which can be found [here](https://github.com/smartspot2/edapi/). Massive thanks to the creators for reverse engineering the API endpoints, allowing me to create this package. 
 
